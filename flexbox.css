@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 90vh;
+    border: 10px solid black;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    column-gap: 2em;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    font-size: 4em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+    background-color: red;
+    align-self: center;
+}
+
+#box2 {
+    background-color: green;
+    order:1;
+}
+
+#box3 {
+    background-color: yellow;
+}
+
+#box4 {
+    background-color: blue;
+}

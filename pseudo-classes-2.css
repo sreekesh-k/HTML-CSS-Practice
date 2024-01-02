@@ -1,0 +1,9 @@
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: lightblue;
+}
+li:nth-child(even){
+    background-color: yellow;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagination</title>
+    <link rel="stylesheet" href="pagination.css">
+</head>
+
+<body>
+    <h1>This is page 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laboriosam rerum sint exercitationem? Molestiae
+        repellat autem qui adipisci, nulla aperiam dicta at reprehenderit impedit animi minima quidem corporis veniam
+        enim.</p>
+    <div class="pagination">
+        <a href="index.html"><</a>
+        <a href="page1.html" class="active">1</a>
+        <a href="page2.html">2</a>
+        <a href="page3.html">3</a>
+        <a href="page2.html">></a>
+        <!-- while on page one > takes us to page 2 and < simply refreshes the page
+            while on page 2 href of > will  be page 3 and < will be page 1, also page 2 will be active class
+            similarly for page 3 ,it will be the active class < will be page 2 and > will be refresh -->
+    </div>
+</body>
+
+</html>

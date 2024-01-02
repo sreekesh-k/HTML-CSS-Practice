@@ -1,0 +1,35 @@
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+p::selection {
+    color: green;
+    background-color: lightblue;
+}
+
+#games li::before {
+    content: "💀";
+}
+
+#gtav::after {
+    content: "❤️";
+}
+
+#forza::after {
+    content: "😍";
+}
+
+#valorant::after {
+    content: "❤️";
+}
+
+#games li::marker {
+    content: "💀";
+    color: green;
+    font-size: 1.2em;
+}
